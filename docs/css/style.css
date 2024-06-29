@@ -1,20 +1,20 @@
 @font-face {
-    font-family: "MR ROBOT";
+    font-family: "VORTEX";
     src: url("../fonts/MR ROBOT.ttf");
 }
 
 .robot-text {
-    font-family: 'MR ROBOT', 'Lucida Console';
-    color: red;
+    font-family: 'VORTEX', 'Lucida Console';
+    color: purple;
 }
 
 a:hover {
-    color: OrangeRed;
+    color: bluepurple;
 }
 
 .robot-logo {
-    font-family: 'MR ROBOT', 'Lucida Console';
-    color: red;
+    font-family: 'VORTEX', 'Lucida Console';
+    color: purple;
     font-size: 25px;
 }
 
@@ -28,10 +28,10 @@ a:hover {
 
 .robot-hr {
     width: 25%;
-    border-top: 3px solid red;
+    border-top: 3px solid purple;
 }
 
 .robot-btn {
     color: white;
-    background-color: red;
+    background-color: purple;
 }
