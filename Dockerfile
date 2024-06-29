@@ -9,9 +9,9 @@ RUN apt-get update \
 # Install Python dependecies
 RUN pip install requests
 
-# Install fsociety
-RUN git clone https://github.com/Manisso/fsociety.git \
-  && cd fsociety \
+# Install VORTEX
+RUN git clone https://github.com/Drxlar/VORTEX.git \
+  && cd VORTEX \
   && chmod +x install.sh \
   && ./install.sh
 
